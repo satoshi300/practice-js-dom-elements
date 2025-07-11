@@ -27,8 +27,8 @@ if (curr) {
 
 // Do wszystkich elementów, które są rodzeństwem elementu o klasie .js-curr, dodaj klasę .siblings (wykorzystaj pętlę).
 
-for(const child of articleEl.children){
-    if(curr!=child){
+for (const child of articleEl.children) {
+    if (curr != child) {
         child.classList.add('siblings')
     }
 }
@@ -44,7 +44,7 @@ if (curr) {
 
 
 // Do ostatniego artykułu dodaj dodatkowy paragraf i umieść go przed znacznikiem <button/>.
-// .parentElement a pozniej.nextElementSibling zeby dojsc do 3 article
+
 if (curr) {
     if (articleEl) {
         const firstSiblingEl = articleEl.nextElementSibling;
